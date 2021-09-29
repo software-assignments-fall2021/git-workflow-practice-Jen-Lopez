@@ -1,2 +1,8 @@
-# Git Practice
-A simple project to practice a few git/github workflows.  Replace the contents of this file with the contents indicated in the [instructions](./instructions.md).
+## Twitter's Image Cropping Algorithm
+#### By: Jennifer Lopez
+
+Article: [Student proves Twitter algorithm ‘bias’ toward lighter, slimmer, younger faces](https://www.theguardian.com/technology/2021/aug/10/twitters-image-cropping-algorithm-prefers-younger-slimmer-faces-with-lighter-skin-analysis)
+
+About a year ago, I remember seeing this [tweet](https://twitter.com/bascule/status/1307440596668182528?s=20) trending on Twitter regarding its Image Cropping feature. While the feature's goal was to try to **automate** the way images are "fit" into the preview thumbnail - trying to focus in on the subject - it fell apart due to algorithmic bias. Of course, Twitter is not the first company to have encountered algorithmic bias and this comes to show that we still have a lot of work to do in the field. Yet, their approach to hosting these *Algorithmic Bug Bounties* is what I found interesting.
+
+The purpose of these bounties are to help identify biases in Twitter's algorithms, allowing external people to provide their own perspectives. But even though it helps identify the problem (which is a great first step), what can possibly be done to remedy this and prevent more biases in the future? We need data to train models for these algorithms. And to get the data, we need people to provide it. Furthermore, what does this say about testing? Twitter [mentioned](https://twitter.com/TwitterComms/status/1307739940424359936?s=20) testing before shipping this feature, but of course, it wasn't enough. It's sort of a catch-22; And I look forward to seeing how tech companies and engineers approach this problem in the future.
